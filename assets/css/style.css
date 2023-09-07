@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.principal {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e8ebe4;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal img {
+    width: 250px;   
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-right: solid black 1px;
+}
+
+.contactos p {
+    color: gray;
+}
+
+.contactos .contact {
+    display: flex;
+    min-height: 70px;
+    border-top: solid black 1px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.contactos .contact:hover {
+    background-color: #cdc3e6;
+}
+
+.contactos .contact img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.contactos .contact .info {
+    text-align: left;
+    padding: 10px;
+}
+
+.contactos .contact p {
+    color: grey;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 10vh;
+    border-top: solid black 1px;
+}
+
+.box button {
+    background-color: #a491d2;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 22px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    color: #cdc3e6;
+}
+
+.contactos nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.contactos nav img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.contactos nav .profile {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.contactos nav .profile .info {
+    padding: 10px;
+}
+
+.contactos nav .items {
+    display: flex;
+    align-items: center;
+}
+
+.contactos nav .items i {
+    padding: 10px;
+}
